@@ -4,7 +4,7 @@ export const fetchMovies = async (query) => {
   const options = {
     method: 'GET',
     headers: {
-      'x-rapidapi-key': import.meta.env.VITE_RAPIDAPI_KEY, // stored in .env
+      'x-rapidapi-key': import.meta.env.VITE_RAPIDAPI_KEY, 
       'x-rapidapi-host': 'movie-database-api1.p.rapidapi.com'
     }
   };
